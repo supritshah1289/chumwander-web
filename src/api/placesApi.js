@@ -17,7 +17,7 @@ export function savePlace(place) {
     .catch(handleError);
 }
 
-export function deleteCourse(placeId) {
+export function deletePlace(placeId) {
   return fetch(baseUrl + placeId, { method: "DELETE" })
     .then(handleResponse)
     .catch(handleError);
