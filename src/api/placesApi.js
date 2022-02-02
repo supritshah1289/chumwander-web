@@ -1,5 +1,5 @@
 import { handleResponse, handleError } from "./apiUtils";
-const baseUrl = process.env.REACT_APP_API_URL + "/places/";
+const baseUrl = process.env.REACT_APP_API_URL + "places/";
 
 export function getPlaces() {
   console.log("Currently in getPlaces() in placesApi.js");
